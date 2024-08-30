@@ -17,16 +17,16 @@ body{
 
     /* width: 25%; */
     /* flex-grow: 1; */
-    flex: 0 0 25%;
+    flex: 0 0 20%;
 }
 
 .principal{
-    /* background-color: blueviolet; */
+    background-color: #E8EBE4;
     height: 100%;
 
     /* width: 75%; */
     /* flex-grow: 3; */
-    flex: 0 0 75%;
+    flex: 0 0 80%;
 
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@ body{
 
 .principal-imagen{
     width: 200px;
-    height: 200px;
+    /* height: 200px; */
     /* margin-bottom: 10px; */
     border-radius: 4%;
 }
@@ -58,7 +58,7 @@ body{
 }
 
 .principal-parrafo-2{
-    width: 450px;
+    width: 480px;
     /* text-align: center; */
     line-height: 1.6;
     text-align: center;
