@@ -34,11 +34,13 @@ body{
     align-items: center;
     /* color: white; */
 
-    gap: 25px;
+    /* gap: 25px; */
+    gap: 1.5rem;
 }
 
 .principal-imagen{
-    width: 200px;
+    /* width: 200px; */
+    width: 12.5rem;
     /* height: 200px; */
     /* margin-bottom: 10px; */
     border-radius: 4%;
@@ -50,15 +52,17 @@ body{
     /* justify-content: center; */
     align-items: center;
     color: #1B1F21;
-    gap: 3px;
+    gap: 0.2rem;
 }
 
 .principal-parrafo-1{
-    font-size: 45px;
+    /* font-size: 45px; */
+    font-size: 2.8rem;
 }
 
 .principal-parrafo-2{
-    width: 480px;
+    /* width: 480px; */
+    width: 30rem;
     /* text-align: center; */
     line-height: 1.6;
     text-align: center;
