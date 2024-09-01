@@ -1,6 +1,7 @@
 body{
-    font-family: 'Roboto', sans-serif;
     /* background-color: brown; */
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
     height: 100vh;
     width: 100vw;
 }
@@ -51,7 +52,8 @@ body{
 .principal-h2{
     /* font-size: 45px; */
     font-size: 2.8rem;
-    font-weight: 300;
+    font-weight: 400;
+    /* font-stretch: condensed; */
 }
 
 .principal-parrafo-2{
@@ -60,6 +62,7 @@ body{
     /* text-align: center; */
     line-height: 1.6;
     text-align: center;
+    font-size: 1rem;
 }
 /* ******************************************************************************************************** */
 /* ******************************************************************************************************** */
@@ -70,7 +73,7 @@ body{
 /* *************************************** SECCION CONTACTOS ********************************************** */
 /* ******************************************************************************************************** */
 .contactos{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 100%;
 
     /* width: 25%; */
@@ -79,30 +82,102 @@ body{
 }
 
 ul{
-    border: solid 3px rgb(111, 150, 6);
+    /* border: solid 3px rgb(111, 150, 6); */
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
-/* li{
-    border: solid 1px red;
-    flex: 0 0 10%;
-} */
-
 .item-1{
-    border: solid 3px red;
+    /* border: solid 3px red; */
+    border-bottom: solid 0.5px #BEC1BB;
+    border-right: solid 0.5px #BEC1BB;
     flex: 0 0 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
 }
 
 .item-2{
-    border: solid 3px blue;
+    /* border: solid 3px blue; */
+    border-bottom: solid 0.5px #BEC1BB;
+    border-right: solid 0.5px #BEC1BB;
     flex: 0 0 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .item-3{
-    border: solid 3px darkorchid;
+    /* border: solid 3px darkorchid; */
+    border-bottom: solid 0.5px #BEC1BB;
+    border-right: solid 0.5px #BEC1BB;
     flex: 0 0 9.5%;
+    display: flex;
+    padding: 0.5rem 0rem 0.5rem 1.0rem;
+}
+
+.usuario-h4{
+    font-size: 0.9rem;
+    font-weight: 410;
+}
+
+.boton-h4{
+    font-size: 1rem;
+    background-color: #A491D2;
+    color: white;
+    border: none;
+    /* width: 190px; */
+    width: 11.87rem;
+    /* height: 40px; */
+    height: 2.5rem;
+}
+
+.contacto-h4{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.contacto-mensaje{
+    font-size: 0.87rem;
+    font-weight: 400;
+}
+
+.estado{
+    font-size: 0.6rem;
+    /* color: #BEC1BB; */
+    color: #828485;
+}
+
+i{
+    /* color: #BEC1BB; */
+    color: #828485;;
+}
+
+.usuario-container{
+    /* border: solid 1px red; */
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.thumbnail-usuario{
+    /* width: 50px; */
+    /* width: 3.1rem; */
+    /* width: 30px; */
+    width: 1.87rem;
+    border-radius: 100%;
+}
+
+.icon-container{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.thumbnail-contactos{
+    width: 50px;
+    border-radius: 100%;
 }
 /* ******************************************************************************************************** */
 /* ******************************************************************************************************** */
